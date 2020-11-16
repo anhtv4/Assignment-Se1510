@@ -1,33 +1,23 @@
 
-
-
-
+/**
+ *
+ * @author Asus
+ */
 public class Coach {
-
-    private String id;
-    private String name;
-    private String email;
-    private String phone;
-    private String password;
+    String id;
+    String name;
+    String email;
+    String mobilePhone;
 
     public Coach() {
     }
 
-    public Coach(String id, String name, String email, String phone) {
+    public Coach(String id, String name, String email, String mobilePhone) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.phone = phone;
+        this.mobilePhone = mobilePhone;
     }
-
-    public Coach(String id, String name, String email, String phone, String password) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-        this.password = password;
-    }
-    
 
     public String getId() {
         return id;
@@ -53,28 +43,18 @@ public class Coach {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getMobilePhone() {
+        return mobilePhone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setMobilePhone(String mobilePhone) {
+        this.mobilePhone = mobilePhone;
     }
 
     @Override
     public String toString() {
-        return "Coach{" + "id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + ", password=" + password + '}';
+        return "Coach{" + "id=" + id + ", name=" + name + ", email=" + email + ", mobilePhone=" + mobilePhone + '}';
     }
-
     
     
-
 }
