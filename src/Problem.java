@@ -1,27 +1,24 @@
 
-/**
- *
- * @author Asus
- */
+
 public class Problem {
-    String id;
-    String dateCreate;
-    String name;
-    String description;
-    String link;
-    Double markWeight;
-    String category;
-    String author;
+    private String id;
+    private String date;
+    private String name;
+    private String shortDescription;
+    private String fullDescription;
+    private double markWeight;
+    private String category;
+    private String author;
 
     public Problem() {
     }
 
-    public Problem(String id, String dateCreate, String name, String description, String link, Double markWeight, String category, String author) {
+    public Problem(String id, String date, String name, String shortDescription, String fullDescription, double markWeight, String category, String author) {
         this.id = id;
-        this.dateCreate = dateCreate;
+        this.date = date;
         this.name = name;
-        this.description = description;
-        this.link = link;
+        this.shortDescription = shortDescription;
+        this.fullDescription = fullDescription;
         this.markWeight = markWeight;
         this.category = category;
         this.author = author;
@@ -35,12 +32,12 @@ public class Problem {
         this.id = id;
     }
 
-    public String getDateCreate() {
-        return dateCreate;
+    public String getDate() {
+        return date;
     }
 
-    public void setDateCreate(String dateCreate) {
-        this.dateCreate = dateCreate;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getName() {
@@ -51,27 +48,27 @@ public class Problem {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getShortDescription() {
+        return shortDescription;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setShortDescription(String shortDescription) {
+        this.shortDescription = shortDescription;
     }
 
-    public String getLink() {
-        return link;
+    public String getFullDescription() {
+        return fullDescription;
     }
 
-    public void setLink(String link) {
-        this.link = link;
+    public void setFullDescription(String fullDescription) {
+        this.fullDescription = fullDescription;
     }
 
-    public Double getMarkWeight() {
+    public double getMarkWeight() {
         return markWeight;
     }
 
-    public void setMarkWeight(Double markWeight) {
+    public void setMarkWeight(double markWeight) {
         this.markWeight = markWeight;
     }
 
@@ -93,8 +90,7 @@ public class Problem {
 
     @Override
     public String toString() {
-        return "Problem{" + "id=" + id + ", dateCreate=" + dateCreate + ", name=" + name + ", description=" + description + ", link=" + link + ", markWeight=" + markWeight + ", category=" + category + ", author=" + author + '}';
+        return "Problem{" + "id=" + id + ", date=" + date + ", name=" + name + ", shortDescription=" + shortDescription + ", fullDescription=" + fullDescription + ", markWeight=" + markWeight + ", category=" + category + ", author=" + author + '}';
     }
-    
     
 }

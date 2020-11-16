@@ -1,0 +1,7 @@
+1;cuongndhe141186@gmail.com;20-02-2020;10;4;3;7;10
+2;cuongndhe141186@gmail.com;20-03-1999;13;7;3;5;7
+3;cuongndhe141186@gmail.com;03-04-2020;11;8;11;8;5
+4;cuongndhe141186@gmail.com;4;1;1;14;12;14
+5;cuongndhe141186@gmail.com;2;8;2;11;4;1
+6;cuongndhe141186@gmail.com;20-3-2020;2;11;4;14;11
+7;cuong@gmail.com;;4;5;7;14;10
